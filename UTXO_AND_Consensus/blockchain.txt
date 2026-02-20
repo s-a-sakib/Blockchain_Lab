@@ -1,0 +1,24 @@
+
+Block Index : 0
+Timestamp   : 1771580886.2794914
+Data        : Genesis Block
+Prev Hash   : 0
+Nonce       : 53449
+Hash        : 000022c5ba39a143c2be1624ba20bca3bfe6c59809c869108d352d8153b54ef9
+
+
+Block Index : 1
+Timestamp   : 1771580886.3305519
+Data        : Alice sends 10 to Bob
+Prev Hash   : 000022c5ba39a143c2be1624ba20bca3bfe6c59809c869108d352d8153b54ef9
+Nonce       : 211687
+Hash        : 00003a251cf78e0a0a1854d098e9df0d1f495317a9bb35df0b972a6a8c35b842
+
+
+Block Index : 2
+Timestamp   : 1771580886.53299
+Data        : Bob sends 5 to Charlie
+Prev Hash   : 00003a251cf78e0a0a1854d098e9df0d1f495317a9bb35df0b972a6a8c35b842
+Nonce       : 118059
+Hash        : 0000722bb36160ad93f74226cae7bcf1f141f2de88ff6b0951311ccf4474290e
+
