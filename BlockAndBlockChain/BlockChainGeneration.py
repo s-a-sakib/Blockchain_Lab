@@ -38,8 +38,6 @@ class BlockChain:
         return True
 
 
-
-
 if __name__ == "__main__":
     blockchain = BlockChain(difficulty=3)
 
