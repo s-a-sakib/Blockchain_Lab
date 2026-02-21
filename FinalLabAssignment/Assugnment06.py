@@ -19,4 +19,3 @@ while True:
         print(f"Corresponding Hash: {hash_result}")
         break
     nonce += 1
-
