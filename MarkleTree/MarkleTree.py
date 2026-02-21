@@ -22,7 +22,7 @@ def build_tree(transactions):
         print("\n--- Next Level ---")
 
         for i in range(0, len(current_level), 2):
-            combined_hash = sha256(current_level[i] + current_level[i + 1])
+            combined_hash = current_level[i] + current_level[i + 1]
             new_hash = sha256(combined_hash)
             next_level.append(new_hash)
             print(new_hash)
