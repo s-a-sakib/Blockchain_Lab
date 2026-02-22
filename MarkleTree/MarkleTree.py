@@ -30,6 +30,10 @@ def build_tree(transactions):
         
     return current_level[0]  # The root hash
 
+def verify_transaction(transactions, root_hash):
+    computed_root = build_tree(transactions)
+    return computed_root == root_hash
+
 if __name__ == "__main__":
     transactions = [
         "Alice pays Bob 5 BTC",
@@ -41,3 +45,7 @@ if __name__ == "__main__":
     print("\n==============================")
     print("Merkle Root:", build_tree(transactions))
     print("==============================")
+
+    # Verify the transactions
+    print("\nVerification:", verify_transaction(transactions, build_tree(transactions)))
+    
